@@ -1,0 +1,32 @@
+{
+  "name": "semantic-release",
+  "version": "0.0.0-development",
+  "description": "test for using semantic release and commitizen ",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaurssaurav/semantic-release.git"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaurssaurav/semantic-release/issues"
+  },
+  "homepage": "https://github.com/isaurssaurav/semantic-release#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^6.3.6"
+  },
+  "czConfig":{
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}
