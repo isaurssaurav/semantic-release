@@ -1,3 +1,3 @@
 ### Test for semantic relase cli
 
-### TEST for commitizen
+### TEST for commitizenit
